@@ -30,7 +30,7 @@ $(document).ready(function() {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
             // console.log(blockHour, nowHour);
 
-            if (blockHour < nowHour) {
+            if (blockHour > nowHour) {
                 $(this).addClass("past");
                 $(this).removeClass("present");
                 $(this).removeClass("future");
