@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Users\\jonat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd\" --wait
+[user]
+	name = Synui
+	email = jonathon.schoenholz@yahoo.com
+[init]
+	defaultBranch = main
